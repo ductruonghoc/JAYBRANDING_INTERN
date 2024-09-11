@@ -1,6 +1,7 @@
 export default function Loading(props: any) {
     return (
         <div className="animate-pulse">
+            {props}
             <div
                 className="container w-screen max-w-full grid grid-rows-1 grid-cols-12">
                 <div
