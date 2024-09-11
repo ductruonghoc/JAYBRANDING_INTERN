@@ -1,4 +1,5 @@
 import { ArrowRightIcon } from "@heroicons/react/24/outline"
+import { ReactNode } from "react"
 export default function ThumbNail () {
     return (
         <div 
@@ -28,7 +29,7 @@ export default function ThumbNail () {
                     className="md:flex gap-[8px]
                                 max-md:hidden">
                     {
-                         Array(4).fill(0).map((_, idx) => (
+                         Array<ReactNode>(4).fill(<></>).map((_, idx) => (
                             <div 
                                 className="p-[8px]
                                             rounded-full bg-gray-100
