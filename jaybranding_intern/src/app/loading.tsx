@@ -1,4 +1,4 @@
-export default function Loading(props: any) {
+export default function Loading(props?: boolean) {
     return (
         <div className="animate-pulse">
             {props}
