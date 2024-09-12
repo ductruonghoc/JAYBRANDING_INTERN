@@ -7,7 +7,7 @@ export default function Collection() {
     const [hoverItem, setHoverItem] = useState(-1);
     return (
         <div
-            className="w-full 
+            className="w-full mb-[40px]
                     flex flex-col gap-[40px] items-center">
             <div className="text-[52px]">
                 Our Collection

@@ -2,9 +2,14 @@
 const nextConfig = {
     images: {
         remotePatterns: [{ //Privacy access
-        protocol: 'https',
-        hostname: 'ogawaworld.net.au'
-    }]
+            protocol: 'https',
+            hostname: 'ogawaworld.net.au'
+        },
+        {
+            protocol: 'https',
+            hostname: 'dangkywebvoibocongthuong.com'
+        }
+        ]
     }
 };
 
