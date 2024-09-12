@@ -6,9 +6,9 @@ import Footer from "./footer";
 import Popup from "./popup";
 export default function Gallery() {
   return(
-    <div className="w-full relative">
+    <div className="relative w-full">
       <div
-        className="w-full relative"></div>
+        className="relative w-full"></div>
       <Header></Header>
       <ThumbNail></ThumbNail>
       <Category></Category>
