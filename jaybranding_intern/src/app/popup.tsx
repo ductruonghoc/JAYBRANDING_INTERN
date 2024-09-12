@@ -72,7 +72,7 @@ export default function Popup() {
                         <div
                             className="bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text
                                         text-transparent md:text-4xl text-center
-                                        max-md:text-2xl">
+                                        max-md:text-3xl">
                             WELCOME YOU GUYS AND BEST WISHES!
                         </div>
                         <div
