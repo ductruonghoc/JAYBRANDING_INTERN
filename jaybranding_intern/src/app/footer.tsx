@@ -4,8 +4,8 @@ import Image from "next/image"
 const GOVMark = "https://dangkywebvoibocongthuong.com/wp-content/uploads/2021/11/logo-da-thong-bao-bo-cong-thuong.png"
 
 interface Item {
-    Parent: String,
-    Child: Array<String>
+    Parent: string,
+    Child: Array<string>
 };
 
 interface Items extends Array<Item> { }; //interface for array of list
