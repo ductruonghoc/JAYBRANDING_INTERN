@@ -43,7 +43,7 @@ export default function Popup() {
         <>
             {
                 modalOn &&
-                <div className="absolute w-full h-screen
+                <div className="absolute w-full h-[100vh]
                                 flex justify-center items-center">
                     <div className="absolute w-full h-full bg-black opacity-70 top-0">
                     </div> {/*Filter */}
