@@ -11,7 +11,8 @@ export default function Category() {
                         flex flex-col items-center
                         pt-[83px]"> {/*Category */}
             <div
-                className="relative md:w-[1360px] md:mb-[65px]
+                className=" animate-[appear_2s_ease_0s]
+                            relative md:w-[1360px] md:mb-[65px]
                             flex flex-col items-center
                             gap-[8px]
                             max-md:w-[full]
@@ -40,7 +41,8 @@ export default function Category() {
                     className='absolute md:h-[532px] top-0 -z-10 opacity-[.02]
                                 max-md:h-[402px]'></GlobeAsiaAustraliaIcon>
             </div>
-            <div className='flex 
+            <div className='animate-[appear_2s_ease_0s]
+                            flex 
                             max-md:flex-col max-md:items-center'> {/*Second item */}
                 <Image
                     src={item2ImgSrc}
@@ -79,7 +81,8 @@ export default function Category() {
                     </button>
                 </div>
             </div>
-            <div className='flex md:flex-row-reverse
+            <div className='animate-[appear_2s_ease_0s]
+                            flex md:flex-row-reverse
                             max-md:flex-col max-md:items-center'> {/*Thirditem */}
                 <Image
                     src={item3ImgSrc}
@@ -118,7 +121,8 @@ export default function Category() {
                     </button>
                 </div>
             </div>
-            <div className='flex 
+            <div className='animate-[appear_2s_ease_0s]
+                            flex 
                             max-md:flex-col max-md:items-center'> {/*4th item */}
                 <Image
                     src={item4ImgSrc}

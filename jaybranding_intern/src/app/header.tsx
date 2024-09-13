@@ -35,7 +35,8 @@ export default function Header() {
                     return (
                         <div
                             className={
-                                `h-full
+                                `transform transition ease-in delay-100 duration-300
+                                h-full
                                 flex items-center
                                 cursor-pointer
                                 text-nowrap
